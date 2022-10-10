@@ -1,5 +1,5 @@
 <main>
-  <p id="notice"></p>
+  <p id="notice"><%= flash[:notice] %></p>
   <div class='container'>
     <div class='row'>
       <%= render 'layouts/left', user: @book.user, book: @new_book %>
